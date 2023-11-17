@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alarma", "Alarma\Alarma.csproj", "{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{492D53A5-77C5-4259-BFCD-4131039253C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{492D53A5-77C5-4259-BFCD-4131039253C0}.Debug|Any CPU.ActiveCfg = Debug
+		{492D53A5-77C5-4259-BFCD-4131039253C0}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93B2F5DD-8B61-4B63-8E81-DAB2E1599FC3}
+	EndGlobalSection
+EndGlobal
