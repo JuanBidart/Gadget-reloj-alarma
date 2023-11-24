@@ -41,8 +41,10 @@
             this.btnParar = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
+            this.pbxAlarma = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.nudHora)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMin)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxAlarma)).BeginInit();
             this.SuspendLayout();
             // 
             // lblhora
@@ -169,10 +171,18 @@
             // 
             // notifyIcon1
             // 
-            this.notifyIcon1.BalloonTipIcon = System.Windows.Forms.ToolTipIcon.Info;
             this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
-            this.notifyIcon1.Text = "aLARMA";
+            this.notifyIcon1.Text = "ALARMA";
             this.notifyIcon1.Visible = true;
+            // 
+            // pbxAlarma
+            // 
+            this.pbxAlarma.Location = new System.Drawing.Point(180, 60);
+            this.pbxAlarma.Name = "pbxAlarma";
+            this.pbxAlarma.Size = new System.Drawing.Size(58, 49);
+            this.pbxAlarma.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pbxAlarma.TabIndex = 10;
+            this.pbxAlarma.TabStop = false;
             // 
             // Form1
             // 
@@ -181,6 +191,7 @@
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(250, 220);
             this.ControlBox = false;
+            this.Controls.Add(this.pbxAlarma);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnParar);
             this.Controls.Add(this.lblseg);
@@ -200,6 +211,7 @@
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.nudHora)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.nudMin)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pbxAlarma)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -218,6 +230,7 @@
         private System.Windows.Forms.Button btnParar;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.NotifyIcon notifyIcon1;
+        private System.Windows.Forms.PictureBox pbxAlarma;
     }
 }
 

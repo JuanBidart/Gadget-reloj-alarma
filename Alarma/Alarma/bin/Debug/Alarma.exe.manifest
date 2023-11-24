@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alarma.exe" size="39920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alarma.exe" size="40944">
       <assemblyIdentity name="Alarma" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SgUp9w18GM+UNGg4YddlVqR5NfWCnhMr6yDLYogH24E=</dsig:DigestValue>
+        <dsig:DigestValue>Jj1IP4DNzjvskG3OcC52QcF9N83HXQy3o7GWsJjkVUI=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

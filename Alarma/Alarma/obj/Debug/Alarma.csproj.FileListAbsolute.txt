@@ -12,3 +12,17 @@ C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\bin\Debug\Alarma.exe.man
 C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\bin\Debug\Alarma.application
 C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Debug\Alarma.exe.manifest
 C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Debug\Alarma.application
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Debug\Alarma.exe.config
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Debug\Alarma.exe.manifest
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Debug\Alarma.application
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Debug\Alarma.exe
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Debug\Alarma.pdb
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.csproj.AssemblyReference.cache
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.Form1.resources
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.Properties.Resources.resources
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.csproj.GenerateResource.cache
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.csproj.CoreCompileInputs.cache
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.exe.manifest
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.application
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.exe
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Debug\Alarma.pdb
