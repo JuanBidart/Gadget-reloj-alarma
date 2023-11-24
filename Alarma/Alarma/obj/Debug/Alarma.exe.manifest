@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alarma.exe" size="40944">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alarma.exe" size="40432">
       <assemblyIdentity name="Alarma" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>Jj1IP4DNzjvskG3OcC52QcF9N83HXQy3o7GWsJjkVUI=</dsig:DigestValue>
+        <dsig:DigestValue>/FVIgoA9i4n1DUkvPif/UZI2As08lYFG3UCYdYqgP/o=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -70,6 +70,42 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>0zMGF/8HTq4adm1SSKkOvDu2888tVegAaeK4+E5YA28=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Recursos\Alarma.wav" size="11525540">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>aMa+kQNElC/wHW7sY+f2vTblhP+1tX9V/Id6MP/ri8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Recursos\digital-clock_9142233.ico" size="12616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0zMGF/8HTq4adm1SSKkOvDu2888tVegAaeK4+E5YA28=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Recursos\location.txt" size="0">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>47DEQpj8HBSa+/TImW+5JCeuQeRkm5NMpJWZG3hSuFU=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Recursos\reloj.png" size="15074">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>bgkx2LemzT+qlKdPdXrd5fC5IGhAKkqlXTeQ0+cC20o=</dsig:DigestValue>
     </hash>
   </file>
 </asmv1:assembly>

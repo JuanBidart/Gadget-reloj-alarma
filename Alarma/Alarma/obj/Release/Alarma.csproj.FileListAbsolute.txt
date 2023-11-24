@@ -1,14 +1,17 @@
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\bin\Release\Alarma.exe.config
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\bin\Release\Alarma.exe
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\bin\Release\Alarma.pdb
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.csproj.AssemblyReference.cache
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.Form1.resources
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.Properties.Resources.resources
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.csproj.GenerateResource.cache
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.csproj.CoreCompileInputs.cache
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.exe
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.pdb
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\bin\Release\Alarma.exe.manifest
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\bin\Release\Alarma.application
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.exe.manifest
-C:\Users\Juan Diego\Desktop\prueba visual\Alarma\Alarma\obj\Release\Alarma.application
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.exe.config
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.exe.manifest
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.application
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.exe
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.pdb
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.csproj.AssemblyReference.cache
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.Form1.resources
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.Properties.Resources.resources
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.csproj.GenerateResource.cache
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.csproj.CoreCompileInputs.cache
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.exe.manifest
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.application
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.exe
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.pdb
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\Alarma.wav
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\location.txt
+C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\reloj.png

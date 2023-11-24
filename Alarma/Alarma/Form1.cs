@@ -1,16 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Diagnostics;
 using System.Drawing;
-using System.Drawing.Text;
 using System.IO;
-using System.Linq;
-using System.Linq.Expressions;
 using System.Media;
-using System.Net.Security;
-using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -22,9 +14,6 @@ namespace Alarma
         private bool isDragging = false;
         private int mouseX, mouseY;
         private Timer timer;
-        public string pathAudio = Path.GetFullPath("C:\\Users\\Juan Diego\\Desktop\\prueba visual\\Alarma\\Alarma.wav");
-        public string pathImagenReloj = Path.GetFullPath("C:\\Users\\Juan Diego\\Desktop\\Proyectos_visual\\Reloj+alarma\\Gadget-reloj-alarma\\Alarma\\Alarma\\reloj.png");
-
         public Form1()
         {
             InitializeComponent();
@@ -32,7 +21,7 @@ namespace Alarma
             //Inicializar vacia la hora minutos y seg y obtener la ruta absoluta a archivo de audio
 
             lblhora.Text = "";
-            lblmin.Text = ""; 
+            lblmin.Text = "";
             lblseg.Text = "";
             pbxAlarma.Visible = false;
 
@@ -80,7 +69,7 @@ namespace Alarma
 
         }
 
-    private void MainForm_MouseDown(object sender, MouseEventArgs e)
+        private void MainForm_MouseDown(object sender, MouseEventArgs e)
         {
             // Verificar si se hizo clic con el botón izquierdo del mouse
             if (e.Button == MouseButtons.Left)
@@ -111,35 +100,48 @@ namespace Alarma
             // Establecer la bandera de arrastre en falso cuando se suelta el botón del mouse
             isDragging = false;
         }
-     
-        
 
-        
+
+
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();  
-            StreamReader reader = new StreamReader("./locacion.txt");
-            int Y = int.Parse(reader.ReadLine());
-            int X = int.Parse(reader.ReadLine());
+            try
+            {
+                //Form1 form1 = new Form1();
+                StreamReader reader = new StreamReader("./Recursos/location.txt");
+                int Y = int.Parse(reader.ReadLine());
+                int X = int.Parse(reader.ReadLine());
 
-            
 
-            
-           
-            this.Location = new Point(X, Y);
-            timer.Start();
 
-           reader.Close();
+
+
+                this.Location = new Point(X, Y);
+
+
+
+                timer.Start();
+                reader.Close();
+
+
+            }
+            catch (Exception)
+            {
+
+            }
+
 
         }
-       
-        public void Sonido(bool activacion) {
 
-            
-            SoundPlayer player = new SoundPlayer(pathAudio);
+        public void Sonido(bool activacion)
+        {
+
+
+            SoundPlayer player = new SoundPlayer("./Recursos/Alarma.wav");
             if (activacion == true)
             {
-               
+
                 player.Play();
                 player.Play();
                 player.Play();
@@ -148,22 +150,24 @@ namespace Alarma
             }
             else player.Stop();
 
-           
+
         }
-       public void imagenReloj(bool activo) {
+        public void imagenReloj(bool activo)
+        {
             if (activo == true)
             {
-                pbxAlarma.Visible=true;
-                pbxAlarma.ImageLocation = pathImagenReloj;
-            }else pbxAlarma.Visible = false;
-        
+                pbxAlarma.Visible = true;
+                pbxAlarma.ImageLocation = "./Recursos/reloj.png";
+            }
+            else pbxAlarma.Visible = false;
+
         }
 
 
 
         private void lblmin_TextChanged(object sender, EventArgs e)
         {
-         
+
             Debug.WriteLine(lblhora);
             Debug.WriteLine(lblmin);
             Debug.WriteLine(nudHora.Value.ToString());
@@ -182,7 +186,7 @@ namespace Alarma
                 int horanud = (int)nudHora.Value;
                 int minutosnud = (int)nudMin.Value;
 
-                
+
 
                 if (horalblb == horanud)
                 {
@@ -200,7 +204,7 @@ namespace Alarma
 
 
 
-                }
+            }
         }
         private void btnParar_Click(object sender, EventArgs e)
         {
@@ -208,16 +212,16 @@ namespace Alarma
             imagenReloj(false);
         }
 
-       
+
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
-         
-            int Y = Location.Y;
-            int X = Location.X;
 
-            StreamWriter writer = new StreamWriter("./locacion.txt");
+
+            int Y = this.Location.Y;
+            int X = this.Location.X;
+
+            StreamWriter writer = new StreamWriter("./Recursos/location.txt");
             writer.WriteLine(Y);
             writer.WriteLine(X);
 
