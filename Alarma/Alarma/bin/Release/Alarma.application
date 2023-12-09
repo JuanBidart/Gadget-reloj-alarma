@@ -7,14 +7,14 @@
     <framework targetVersion="4.8" profile="Full" supportedRuntime="4.0.30319" />
   </compatibleFrameworks>
   <dependency>
-    <dependentAssembly dependencyType="install" codebase="Alarma.exe.manifest" size="5217">
+    <dependentAssembly dependencyType="install" codebase="Alarma.exe.manifest" size="5630">
       <assemblyIdentity name="Alarma.exe" version="1.0.0.3" publicKeyToken="0000000000000000" language="neutral" processorArchitecture="msil" type="win32" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>WCUUCkCs3KpAN8tXd30XRlLH6bpOZDll/BFzZ76RDog=</dsig:DigestValue>
+        <dsig:DigestValue>jyTiOB1kO8kQJVRBTm0JHGejpVbeOPTxglY+h0UtaJE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

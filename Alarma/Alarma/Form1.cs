@@ -18,21 +18,24 @@ namespace Alarma
         {
             InitializeComponent();
 
-            //Inicializar vacia la hora minutos y seg y obtener la ruta absoluta a archivo de audio
+            //Inicializar vacia la hora minutos y seg 
 
             lblhora.Text = "";
             lblmin.Text = "";
             lblseg.Text = "";
             pbxAlarma.Visible = false;
 
-
             Task tareaTiempo = new Task(() =>
             {
                 timer = new Timer();
                 timer.Interval = 1000;
                 timer.Tick += Timer_Tick;
+               
             });
             tareaTiempo.Start();
+            
+
+
 
             // Suscribirse a los eventos MouseDown y MouseMove del formulario
             this.MouseDown += MainForm_MouseDown;
@@ -45,7 +48,7 @@ namespace Alarma
             string minutos = DateTime.Now.Minute.ToString();
             string segundos = DateTime.Now.Second.ToString();
 
-
+           
             if (segundos.Length < 2)
             {
                 lblseg.Text = segundos.Insert(0, "0");
@@ -108,29 +111,38 @@ namespace Alarma
         {
             try
             {
+                
+
                 //Form1 form1 = new Form1();
                 StreamReader reader = new StreamReader("./Recursos/location.txt");
-                int Y = int.Parse(reader.ReadLine());
-                int X = int.Parse(reader.ReadLine());
-
-
-
-
+                int Y;
+                int X;
+                
+                if (reader.ReadLine()==null)
+                {
+                    Y = 0;
+                    X = 0;
+                }
+                else
+                {
+                    Y = int.Parse(reader.ReadLine());
+                    X = int.Parse(reader.ReadLine());
+                }
+                
 
                 this.Location = new Point(X, Y);
 
-
-
-                timer.Start();
+                
                 reader.Close();
 
+               
 
             }
             catch (Exception)
             {
-
+                
             }
-
+            finally { timer.Start(); }
 
         }
 
@@ -168,10 +180,10 @@ namespace Alarma
         private void lblmin_TextChanged(object sender, EventArgs e)
         {
 
-            Debug.WriteLine(lblhora);
-            Debug.WriteLine(lblmin);
-            Debug.WriteLine(nudHora.Value.ToString());
-            Debug.WriteLine(nudMin.Value.ToString());
+            //Debug.WriteLine(lblhora);
+            //Debug.WriteLine(lblmin);
+            //Debug.WriteLine(nudHora.Value.ToString());
+            //Debug.WriteLine(nudMin.Value.ToString());
             //Evento que compara la hora actul con la puesta en el cuadro para sonar la alarma
             try
             {
@@ -212,21 +224,52 @@ namespace Alarma
             imagenReloj(false);
         }
 
+        private void label7_Click(object sender, EventArgs e)
+        {
+            Sonido(false);
+            imagenReloj(false);
+            timer.Stop();
+            this.Close();
+        }
 
+
+        private void label7_MouseMove(object sender, MouseEventArgs e)
+        {
+            label7.ForeColor = Color.SeaGreen;
+        }
+
+        private void label7_MouseLeave(object sender, EventArgs e)
+        {
+            label7.ForeColor = Color.White;
+        }
+
+        private void trackBar1_Scroll(object sender, EventArgs e)
+        {
+            this.Opacity = (double)trackBar1.Value/10;
+        }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
+            try
+            {
+                int Y = this.Location.Y;
+                int X = this.Location.X;
 
-            int Y = this.Location.Y;
-            int X = this.Location.X;
+                StreamWriter writer = new StreamWriter("./Recursos/location.txt");
+                writer.WriteLine(Y);
+                writer.WriteLine(X);
 
-            StreamWriter writer = new StreamWriter("./Recursos/location.txt");
-            writer.WriteLine(Y);
-            writer.WriteLine(X);
+                writer.Close();
 
-            writer.Close();
 
+            }
+            catch (Exception)
+            {
+
+                throw;
+            }
+            
         }
     }
 

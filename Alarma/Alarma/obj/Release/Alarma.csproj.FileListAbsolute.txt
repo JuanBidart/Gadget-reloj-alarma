@@ -15,3 +15,21 @@ C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Al
 C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\Alarma.wav
 C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\location.txt
 C:\Users\Juan Diego\Desktop\Proyectos_visual\Reloj+alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\reloj.png
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\Alarma.wav
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\digital-clock_9142233.ico
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\location.txt
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Recursos\reloj.png
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.exe.config
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.exe.manifest
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.application
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.exe
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\bin\Release\Alarma.pdb
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.csproj.AssemblyReference.cache
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.Form1.resources
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.Properties.Resources.resources
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.csproj.GenerateResource.cache
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.csproj.CoreCompileInputs.cache
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.exe.manifest
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.application
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.exe
+C:\Users\juand\Desktop\Programas\Reloj+Alarma\Gadget-reloj-alarma\Alarma\Alarma\obj\Release\Alarma.pdb

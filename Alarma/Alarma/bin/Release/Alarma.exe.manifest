@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alarma.exe" size="39920">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Alarma.exe" size="40944">
       <assemblyIdentity name="Alarma" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>qPlXhP+pi1dtCUNKKQqNm2RmtO3AFYy3mLSN2ECG2bU=</dsig:DigestValue>
+        <dsig:DigestValue>WygknUgvDJDkXhRItPxeSNJH7/OJGDC44brgdDKOr/w=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
@@ -79,6 +79,15 @@
       </dsig:Transforms>
       <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
       <dsig:DigestValue>aMa+kQNElC/wHW7sY+f2vTblhP+1tX9V/Id6MP/ri8s=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="Recursos\digital-clock_9142233.ico" size="12616">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>0zMGF/8HTq4adm1SSKkOvDu2888tVegAaeK4+E5YA28=</dsig:DigestValue>
     </hash>
   </file>
   <file name="Recursos\location.txt" size="0">
