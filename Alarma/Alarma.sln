@@ -5,6 +5,8 @@ VisualStudioVersion = 17.7.34009.444
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alarma", "Alarma\Alarma.csproj", "{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup1", "Setup1\Setup1.vdproj", "{BA333DA1-FCE0-48D9-97BD-8F62C29C14D5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,8 @@ Global
 		{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2AF45736-AEBF-45EE-BFEE-4AB2BC90B7DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA333DA1-FCE0-48D9-97BD-8F62C29C14D5}.Debug|Any CPU.ActiveCfg = Debug
+		{BA333DA1-FCE0-48D9-97BD-8F62C29C14D5}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
