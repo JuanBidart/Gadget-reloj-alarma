@@ -230,6 +230,7 @@ namespace Alarma
             imagenReloj(false);
             timer.Stop();
             this.Close();
+            
         }
 
 
